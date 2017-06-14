@@ -1,0 +1,18 @@
+{
+  "type": 0,
+  "platform": [
+    "android",
+    "ios"
+  ],
+  "module": "sm_permission",
+  "methods": [
+    "getLocationEnable",
+    "getAlbumEnable",
+    "getCameraEnable",
+    "getInformEnable",
+    "getRecordEnable",
+    "getPhoneEnable",
+    "getAddressEnable",
+    "getReadStorage"
+  ]
+}
