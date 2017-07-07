@@ -122,8 +122,7 @@ public class SMOSmPermissionModule extends ReactContextBaseJavaModule {
 
   public boolean checkPermission(String permission)
   {
-    if(ContextCompat.checkSelfPermission(getCurrentActivity(), permission) != PackageManager.PERMISSION_GRANTED
-            && ActivityCompat.shouldShowRequestPermissionRationale(getCurrentActivity(), permission))
+    if(ContextCompat.checkSelfPermission(getCurrentActivity(), permission) != PackageManager.PERMISSION_GRANTED)
     {
       return true;
     }
