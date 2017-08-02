@@ -16,7 +16,7 @@ public class SMOSmPermissionPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new SMOSmPermissionModule(reactContext));
     }
 
-    @Override
+//    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
